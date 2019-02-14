@@ -2305,6 +2305,9 @@ class StringMethods(NoNewAttributesMixin):
 
     Notes
     -----
+    Method str.split supports regex splitting. When regex special characters
+    are used, behavior will be consistent with regex.
+
     The handling of the `n` keyword depends on the number of found splits:
 
     - If found splits > `n`,  make first `n` splits only
